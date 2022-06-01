@@ -1,0 +1,26 @@
+<div class="container">
+  <h1 class="title">
+    {{ title }}
+  </h1>
+
+  <form [formGroup]="clientForm" class="form">
+    <mat-form-field appearance="outline">
+      <mat-label>ID</mat-label>
+      <input matInput placeholder="Id" formControlName="id" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>First Name</mat-label>
+      <input matInput placeholder="FName" formControlName="fName" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Last Name</mat-label>
+      <input matInput placeholder="LName" formControlName="lName" />
+    </mat-form-field>
+  </form>
+
+  <button mat-raised-button (click)="!data ? addClient() : editClient()">
+    Save Data
+  </button>
+</div>
