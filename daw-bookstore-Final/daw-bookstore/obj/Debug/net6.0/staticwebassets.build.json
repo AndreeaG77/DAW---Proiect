@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZfTxmTk1MZFqLeNitaJtNdPxegXfWz9TVSF1ElsExBE=",
+  "Source": "daw-bookstore",
+  "BasePath": "_content/daw-bookstore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
